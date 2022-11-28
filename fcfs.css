@@ -1,0 +1,156 @@
+/* body {
+  background-image: url('cpu_img.jpg');
+} */
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-family: "Open Sans";
+    color: white;
+}
+
+.divTable {
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+}
+
+table {
+    border-spacing: 1;
+    /* border-collapse: collapse; */
+    background: rgb(229, 228, 228);
+    border-radius: 7px;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  table td, table th {
+    padding-left: 8px;
+    border: rgb(228, 224, 224);
+    border-width: thin;
+  }
+  table thead tr {
+    height: 60px;
+    background: rgba(51, 145, 204, 0.555);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  table tbody tr {
+    height: 50px;
+    font-weight: 500;
+    color: rgb(113, 104, 104);
+  }
+  table tbody tr:last-child {
+    border: 0;
+  }
+  table td, table th {
+    text-align: left;
+  }
+  table td.l, table th.l {
+    text-align:  left;
+  }
+  table td.c, table th.c {
+    text-align: left;
+  }
+  table td.r, table th.r {
+    text-align: left;
+  }
+
+  tbody tr {
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  
+  tbody tr:hover {
+    background-color: rgba(235, 249, 250, 0.658);;
+    cursor: pointer;
+  }
+
+  .btnDiv {
+    text-align: center;
+    color: aliceblue;
+  }
+
+  .btn{
+    display:inline-block;
+    text-decoration:none;
+    color:rgb(229, 74, 63);
+    border:1px solid rgb(200, 26, 26);
+    font-size:13px;
+    position: relative;
+    padding:12px 34px;
+    cursor:pointer;
+    /* background:transparent; */
+    border-radius:12px;
+}
+
+.btn:hover{
+    border:1px solid #f44336;
+    background: #edc1be;
+    transition: 0.7s;
+}
+
+.output {
+    margin-bottom: 5%;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avg {
+    display: flex;
+    background-color: rgb(236, 239, 239);
+    margin: 2rem;
+    width: 50%;
+}
+
+.data {
+    margin: 1rem;
+}
+
+.chartCard {
+  width: 100vw;
+  height: calc(80vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chartBox {
+  width: 700px;
+  padding: 10px;
+  border-radius: 20px;
+  background: white;
+}
+
+.chartCard1 {
+  width: 100vw;
+  height: calc(50vh - 30px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chartBox1 {
+  width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  background: white;
+}
+
+.chartCard2 {
+  width: 100vw;
+  height: calc(50vh - 30px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chartBox2 {
+  width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  background: white;
+}
